@@ -10,6 +10,7 @@ $aLang = array(
 'CARRIER_MAIN_ICONUPLOAD'      => 'Upload Parcel Service Icon',
 'CARRIER_LIST_MENUITEM'        => 'Shop Settings',
 'CARRIER_LIST_MENUSUBITEM'     => 'Parcel Service',
+'TRACKING_FOLLOW'              =>'Tracking of shipment (link)',
 # menu
 'mxcarriertrack'               => 'Parcel Service',
 # tabs

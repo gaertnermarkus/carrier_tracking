@@ -10,6 +10,7 @@ $aLang = array(
 'CARRIER_MAIN_ICONUPLOAD'      => 'Paketdienst-Icon hochladen',
 'CARRIER_LIST_MENUITEM'        => 'Shopeinstellungen',
 'CARRIER_LIST_MENUSUBITEM'     => 'Paketdienst',
+'TRACKING_FOLLOW'               =>'Sendung verfolgen (Link)',
 # menu
 'mxcarriertrack'               => 'Paketdienste',
 # tabs

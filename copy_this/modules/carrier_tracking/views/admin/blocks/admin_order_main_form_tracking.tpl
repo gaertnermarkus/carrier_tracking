@@ -5,6 +5,13 @@
     <td class="edittext">
         <input type="text" class="editinput" size="25" maxlength="[{$edit->oxorder__oxtrackcode->fldmax_length}]" name="editval[oxorder__oxtrackcode]" value="[{$edit->oxorder__oxtrackcode->value}]" [{$readonly}]>
     </td>
+    <td>
+        [{if $edit->getShipmentTrackingUrl()}]
+            <a href="[{$edit->getShipmentTrackingUrl()}]" target="_blank">[{oxmultilang ident="TRACKING_FOLLOW"}]</a>
+        [{else}]
+            <span style="text-decoration: line-through;">[{oxmultilang ident="TRACKING_FOLLOW"}]</span>
+        [{/if}]
+    </td>
 </tr>
 [{*if $edit->oxorder__oxtrackcode->value*}]
     [{assign var="carrierlist" value=$oView->getCarrierList()}]
